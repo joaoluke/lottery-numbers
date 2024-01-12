@@ -1,5 +1,6 @@
 import random
 
+
 def generate_sequences_mega_sena(quantity_of_sequences):
     sequencies = []
     for _ in range(quantity_of_sequences):

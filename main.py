@@ -1,11 +1,12 @@
 from mega_sena import generate_sequences_mega_sena
+from lotofacil import generate_sequences_lotofacil
 
 
 def checkLotteryGame(game, sequence_number):
     if game == "Mega-Sena":
         return generate_sequences_mega_sena(sequence_number)
     elif game == "Lotofácil":
-        return "You can become a backend developer."
+        return generate_sequences_lotofacil(sequence_number)
     elif game == "Quina":
         return "You can become a mobile app developer"
     elif game == "Lotomania":
